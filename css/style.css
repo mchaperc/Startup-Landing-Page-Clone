@@ -1,0 +1,53 @@
+body {
+	margin: 0 auto;
+	background-color: black;
+}
+
+#top-nav {
+	height: 4em;
+	width: 100%;
+	background-color: white;
+	position: absolute;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+}
+
+#top-nav img {
+	height: 60%;
+	width: 60%;
+	margin-top: .8em;
+	left: -21%;
+	position: relative;
+	float: left;
+}
+
+#top-nav-links {
+	width: 55%;
+	position: relative;
+	float: right;
+	top: -40%;
+	color: grey;
+}
+
+
+
+#top-nav-links li{
+	display: inline;
+	padding: .95em;
+}
+
+#top-nav-links li:hover {
+	color: black;
+}
+
+#top-nav-links a {
+	text-decoration: none;
+}
+
+#top-nav-links a:visited {
+	color: grey;
+}
+
+#active {
+	color: black;
+}
