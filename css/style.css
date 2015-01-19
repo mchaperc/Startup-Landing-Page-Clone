@@ -1,6 +1,5 @@
 body {
 	margin: 0 auto;
-	background-color: black;
 }
 
 /***************************
@@ -18,7 +17,7 @@ Top Navigation Section
 	font-weight: 300;
 	color: #838994;
 	margin-bottom: 0;
-	border-bottom: 1px solid #838994;
+	border-bottom: 1px solid lightgrey;
 }
 
 #top-nav img {
@@ -150,4 +149,57 @@ Main Content Section
 
 #main-content p {
 	font-size: 1.5em;
+}
+
+/***************************
+Footer Section
+***************************/
+.social {
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+	top: 10%;
+}
+
+footer p {
+	font-family: 'Roboto', sans-serif;
+	padding: 1em;
+}
+
+footer p:last-child {
+	font-weight: 300;
+	color: grey;
+	font-size: .9em;
+	margin-top: .5em;
+	padding-bottom: 10em;
+}
+
+
+
+footer ul li{
+	display: inline;
+	padding: .3em;
+}
+
+.fa {
+	padding: .01em;
+	width:38px; /** fix width ***/
+	text-align: center;
+	border-radius: 50%;
+	border: 1px solid #ddd;
+	line-height: 38px;
+}
+
+.social .icons:nth-child(2) {
+	width: 800px;
+}
+
+.social .icons a {
+	color: #4c66a4;
+	text-decoration: none;
+}
+
+.social .icons a:first-child {
+	color: #55acee;
 }
