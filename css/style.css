@@ -3,13 +3,20 @@ body {
 	background-color: black;
 }
 
+/***************************
+Top Navigation Section
+***************************/
+
 #top-nav {
 	height: 4em;
 	width: 100%;
 	background-color: white;
-	position: absolute;
+	position: fixed;
+	z-index: 100;
 	font-family: 'Roboto', sans-serif;
 	font-size: 1em;
+	color: #838994;
+	margin-bottom: 0;
 }
 
 #top-nav img {
@@ -26,7 +33,7 @@ body {
 	position: relative;
 	float: right;
 	top: -40%;
-	color: grey;
+	letter-spacing: .03em;
 }
 
 
@@ -49,5 +56,62 @@ body {
 }
 
 #active {
-	color: black;
+	color: #4c5058;
+	font-weight: 600;
+}
+
+/***********************************
+Header Section
+***********************************/
+#header {
+	background-image: url("../images/first-background copy.jpg");
+	background-size: cover;
+	background-position: center bottom;
+	color: white;
+	text-align: center;
+	height: 40em;
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+	top: 4em;
+	font-family: 'Roboto', sans-serif;
+}
+
+.header-content {
+	position: relative;
+	font-weight: 300;
+}
+
+#header h1 {
+	font-weight: 300;
+	font-size: 3em;
+	top: 4em;
+}
+
+#header p {
+	font-size: 1.5em;
+	top: 9em;
+	font-weight: 300;
+}
+
+#header div {
+	font-size: .8em;
+	top: 19em;
+	background-color: #f15a29;
+	border-radius: 5px;
+	max-width: 100px;
+	padding: 1.5em;
+	margin: 0 auto;
+}
+
+#header a {
+	text-decoration: none;
+}
+
+#header div:hover {
+	background-color: #d9400e;
+}
+
+#header a:visited {
+	color: white;
 }
